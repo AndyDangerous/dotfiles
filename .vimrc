@@ -1,4 +1,5 @@
-runtime! autoload/pathogen.vim
+" runtime! autoload/pathogen.vim
+execute pathogen#infect()
 
 colorscheme spacegray
 

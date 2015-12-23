@@ -7,7 +7,7 @@ alias  .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
 # Shell
-alias la="ls -a"
+alias la="ls -alFGgohq"
 alias vi='vim'
 # fancy ls command
   # -l  long format
