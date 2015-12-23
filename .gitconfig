@@ -13,3 +13,5 @@
   autocorrect = 10
 [interactive]
   singlekey = true
+[push]
+    default = simple
