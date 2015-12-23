@@ -1,0 +1,15 @@
+[user]
+  name = Andy Mention
+  email = amention@gmail.com
+[branch]
+  autosetuprebase = always
+[color]
+  ui = auto
+[core]
+  excludesfile = ~/.cvsignore
+  editor = vim
+  whitespace = warn
+[help]
+  autocorrect = 10
+[interactive]
+  singlekey = true
