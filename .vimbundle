@@ -1,3 +1,4 @@
+ctrlpvim/ctrlp.vim
 christoomey/vim-tmux-navigator
 ervandew/supertab
 godlygeek/tabular
