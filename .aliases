@@ -40,5 +40,6 @@ alias grc='git rebase --continue'
 alias gri='git rebase --interactive'
 alias gra='git rebase --abort'
 alias gcm="git commit -m"
+alias gca="git commit --amend --no-edit"
 alias gco="git checkout"
 alias glog="git log --pretty=oneline"
