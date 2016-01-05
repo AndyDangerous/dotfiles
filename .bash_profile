@@ -84,6 +84,9 @@ fi
 
 # source ~/dotfiles/bin/tmuxinator.bash
 
+# get thefuck to work(https://github.com/nvbn/thefuck)
+eval $(thefuck --alias)
+
 export PATH=/usr/local/bin:$PATH
 
 

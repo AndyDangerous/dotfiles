@@ -29,6 +29,8 @@ You'll need to install some software (duh).
 
 * git
 * tmux
+* [Ag](https://github.com/ggreer/the_silver_searcher)
+* [thefuck](https://github.com/nvbn/thefuck)
 
 
 ### TODOs
