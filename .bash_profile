@@ -87,6 +87,8 @@ fi
 # get thefuck to work(https://github.com/nvbn/thefuck)
 eval $(thefuck --alias)
 
-export PATH=/usr/local/bin:$PATH
+# export PATH=/usr/local/bin:$PATH
 
+# add rbenv to path
+eval "$(rbenv init -)"
 
