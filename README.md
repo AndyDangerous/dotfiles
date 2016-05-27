@@ -35,7 +35,6 @@ You'll need to install some software (duh).
 
 ### TODOs
 
-- [ ] new windows/panes should remember working dir
 - [ ] tmux window names are still janky (`#12W`)
 - [ ] some better system for managing `.vim/`
 - [ ] clean up trailing whitespace automatically
