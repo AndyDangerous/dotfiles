@@ -56,6 +56,14 @@ set number
 
 " Save with leader + w
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>x :x<CR>
+
+" leader + vv splits pane and opens Ctrl P
+map <Leader>vv :vsp<cr><C-p>
+map <Leader> <esc>
+map <Leader>ss :sp<cr><C-p>
+map <Leader> <esc>
 
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>
