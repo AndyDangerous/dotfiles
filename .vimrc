@@ -65,6 +65,10 @@ map <Leader> <esc>
 map <Leader>ss :sp<cr><C-p>
 map <Leader> <esc>
 
+" abreeevs
+inoreabbrev bpry require 'pry'; binding.pry
+inoreabbrev ioi \|> IO.inspect
+
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>
 
