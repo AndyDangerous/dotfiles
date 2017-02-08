@@ -67,7 +67,7 @@ map <Leader> <esc>
 
 " abreeevs
 inoreabbrev bpry require 'pry'; binding.pry
-inoreabbrev ioi \|> IO.inspect
+inoreabbrev ioi \|> IO.inspect label: "some label"
 
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>
@@ -127,7 +127,7 @@ if get(g:, 'loaded_ctrlp', 1)
   let g:ctrlp_max_height = 20
   let g:ctrlp_match_window_bottom = 0
   let g:ctrlp_switch_buffer = 0
-  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$'
+  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$|_build'
 endif
 
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
