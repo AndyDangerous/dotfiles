@@ -22,3 +22,4 @@ tpope/vim-sensible
 tpope/vim-sleuth
 tpope/vim-surround
 tpope/vim-unimpared
+mxw/vim-jsx
