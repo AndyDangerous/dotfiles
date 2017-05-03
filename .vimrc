@@ -67,7 +67,7 @@ map <Leader> <esc>
 
 " abreeevs
 inoreabbrev bpry require 'pry'; binding.pry
-inoreabbrev ioi \|> IO.inspect label: "some label"
+inoreabbrev ioi \|> IO.inspect(label: "some label")
 
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>

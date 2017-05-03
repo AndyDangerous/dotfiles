@@ -21,5 +21,9 @@ tpope/vim-rsi
 tpope/vim-sensible
 tpope/vim-sleuth
 tpope/vim-surround
-tpope/vim-unimpared
+tpope/vim-unimpaired
 mxw/vim-jsx
+slashmili/alchemist.vim
+scrooloose/nerdtree
+scrooloose/syntastic
+vim-airline/vim-airline
