@@ -82,10 +82,6 @@ if [ -f '/usr/local/etc/bash_completion.d/git-completion.bash' ]; then
   source '/usr/local/etc/bash_completion.d/git-completion.bash'
 fi
 
-# source ~/dotfiles/bin/tmuxinator.bash
-
-# get thefuck to work(https://github.com/nvbn/thefuck)
-eval $(thefuck --alias)
 
 # export PATH=/usr/local/bin:$PATH
 
