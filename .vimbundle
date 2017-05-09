@@ -12,7 +12,6 @@ tpope/vim-commentary
 tpope/vim-endwise
 tpope/vim-fugitive
 tpope/vim-git
-tpope/vim-haml
 tpope/vim-markdown
 tpope/vim-pathogen
 tpope/vim-rails

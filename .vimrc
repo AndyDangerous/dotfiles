@@ -16,7 +16,8 @@ set splitbelow
 
 set hidden
 
-set guifont=Monaco:h16
+set encoding=utf8
+" set guifont=Monaco:h16
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=bash
 
@@ -72,12 +73,10 @@ inoreabbrev ioi \|> IO.inspect(label: "some label")
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>
 
-" ignore ruby warnings in Syntastic
-let g:syntastic_ruby_mri_args="-T1 -c"
+" configure Syntastic
+let g:syntastic_elixir_checkers=["elixir"]
+let g:syntastic_enable_elixir_checker=1
 
-" syntax highlighting for .ejs and .hamlc
-au BufNewFile,BufRead *.ejs set filetype=html
-au BufNewFile,BufRead *.hamlc set filetype=html
 let g:jsx_ext_required = 0
 
 " Better search behavior
