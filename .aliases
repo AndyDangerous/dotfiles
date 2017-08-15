@@ -8,7 +8,6 @@ alias ......="cd ../../../../.."
 
 # Shell
 alias la="ls -alFGgohq"
-alias vi='vim'
 # fancy ls command
   # -l  long format
   # -F  / after dirs, * after exe, @ after symlink
@@ -31,7 +30,6 @@ alias ga='git add'
 alias gnap='git add -N . && git add -p'
 alias gb='git branch'
 alias gc='git commit -v'
-alias git-ham='git commit -m "H.A.M." && git push -f'
 alias gd='git diff --color-words'
 alias glod='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%Creset: %s"'
 alias gp='git push'
@@ -48,3 +46,6 @@ alias gh='git config --get remote.origin.url | ruby -ne "puts %{https://github.c
 
 # Bash
 alias hg="history | grep"
+
+# Ruby
+alias be="bundle exec"

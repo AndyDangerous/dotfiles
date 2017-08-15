@@ -26,3 +26,5 @@ slashmili/alchemist.vim
 scrooloose/nerdtree
 scrooloose/syntastic
 vim-airline/vim-airline
+xolox/vim-easytags
+xolox/vim-misc
