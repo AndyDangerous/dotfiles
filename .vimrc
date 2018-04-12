@@ -16,6 +16,9 @@ set splitbelow
 
 set hidden
 
+" set a column at 100 chars
+set colorcolumn=100
+
 set encoding=utf8
 " set guifont=Monaco:h16
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
