@@ -156,3 +156,6 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
+
+" easytags needs to be async because dashboard is big and slow
+let g:easytags_async=1
