@@ -29,6 +29,13 @@ augroup vimrc
   autocmd GuiEnter * set columns=120 lines=70 number
 augroup END
 
+" format elixir code with formatprg
+autocmd BufWritePost *.exs silent :!mix format %
+autocmd BufWritePost *.ex silent :!mix format %
+
+" use autoread for elixir formatting
+set autoread
+
 " Add comma as leader
 :nmap , \
 
