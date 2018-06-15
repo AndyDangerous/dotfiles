@@ -83,9 +83,10 @@ inoreabbrev ioi \|> IO.inspect(label: "INSPECT")
 " format JSON with python
 nnoremap <Leader>j :%!python -m json.tool<cr>
 
-" configure Syntastic
-let g:syntastic_elixir_checkers=["elixir"]
-let g:syntastic_enable_elixir_checker=1
+" Use syntastic to check elixir syntax
+" COMMENTED OUT BECAUSE IT'S DAMN SLOW
+" let g:syntastic_elixir_checkers=["elixir"]
+" let g:syntastic_enable_elixir_checker=1
 
 let g:jsx_ext_required = 0
 
