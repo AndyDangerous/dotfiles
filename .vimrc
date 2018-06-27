@@ -167,3 +167,6 @@ let g:airline_symbols.space = "\ua0"
 
 " easytags needs to be async because dashboard is big and slow
 let g:easytags_async=1
+
+" Spell check my git commits so I don't look wuite as bad
+autocmd FileType gitcommit setlocal spell
