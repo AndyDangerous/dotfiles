@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ ! -d "$HOME/.vimbundles" ]; then
-  BASE="$HOME/.vim/bundle"
+  BASE="$HOME/.vim/pack/bundle/start"
 else
   BASE="$HOME/.vimbundles"
 fi
