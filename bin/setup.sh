@@ -13,3 +13,7 @@ cp .vimrc ~
 # download all the vim bundles
 
 bin/vim-bundle.sh
+
+# add vim colors
+
+bin/vim-colors.sh
