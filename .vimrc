@@ -21,6 +21,9 @@ set encoding=utf8
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=bash
 
+" Strip Trailing Whitespace on write
+autocmd BufWritePre * %s/\s\+$//e
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
