@@ -138,7 +138,7 @@ if get(g:, 'loaded_ctrlp', 1)
   let g:ctrlp_max_height = 20
   let g:ctrlp_match_window_bottom = 0
   let g:ctrlp_switch_buffer = 0
-  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$|_build$|deps|javascripts|log'
+  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$|_build$|deps|javascripts|log|target|build-dir|deploy-scripts|.class'
 endif
 
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
