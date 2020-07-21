@@ -39,11 +39,6 @@ set autoread
 " Add comma as leader
 :nmap , \
 
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
 " vim tab navigation
 nnoremap th :tabfirst<CR>
 nnoremap tj :tabprev<CR>
@@ -61,6 +56,12 @@ noremap   <Up>    <NOP>
 noremap   <Down>  <NOP>
 noremap   <Left>  <NOP>
 noremap   <Right> <NOP>
+
+" Easier Split navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " show line numbers
 set number
@@ -138,7 +139,7 @@ if get(g:, 'loaded_ctrlp', 1)
   let g:ctrlp_max_height = 20
   let g:ctrlp_match_window_bottom = 0
   let g:ctrlp_switch_buffer = 0
-  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$|_build$|deps|javascripts|log|target|build-dir|deploy-scripts|.class'
+  let g:ctrlp_custom_ignore = '\v.DS_Store|.sass-cache|.scssc|tmp|.bundle|.git|node_modules|vendor|bower_components$|_build$|deps|javascripts|log|.log|target|build-dir|deploy-scripts|.class|tags'
 endif
 
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
@@ -170,3 +171,13 @@ let g:easytags_async=1
 
 " Spell check my git commits so I don't look wuite as bad
 autocmd FileType gitcommit setlocal spell
+
+" Don't add a newline at end of file for Kotlin
+autocmd FileType kt setlocal noeol
+
+" Make Syntastic work for yml as well as yaml
+autocmd BufRead,BufNewFile *.yml set filetype=yaml
+autocmd FileType yml setlocal commentstring=#
+
+" Add bithub for rhubarb and fugitive plugins
+let g:github_enterprise_urls = ['https://bithub.brightcove.com']

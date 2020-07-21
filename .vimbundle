@@ -28,3 +28,6 @@ scrooloose/syntastic
 vim-airline/vim-airline
 xolox/vim-easytags
 xolox/vim-misc
+vim-scripts/paredit.vim
+kotlin.vim
+vim-rhubarb
