@@ -46,3 +46,7 @@ alias hg="history | grep"
 
 # Ruby
 alias be="bundle exec"
+
+# Docker
+alias docker-kill-all="docker kill `docker ps -aq`"
+alias docker-rm-all="docker rm `docker ps -aq`"
